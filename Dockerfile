@@ -31,7 +31,7 @@ RUN dpkg --add-architecture i386 && \
     apt-get autoremove -y && \
     apt-get clean
 
-ENV NODEJS_VERSION=11.10.0 \
+ENV NODEJS_VERSION=9.11.2 \
     PATH=$PATH:/opt/node/bin
 
 WORKDIR "/opt/node"
