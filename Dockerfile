@@ -3,7 +3,7 @@ FROM beevelop/java
 MAINTAINER Maik Hummel <m@ikhummel.com>
 
 ENV ANDROID_SDK_URL="https://dl.google.com/android/repository/tools_r25.2.5-linux.zip" \
-    ANDROID_BUILD_TOOLS_VERSION=28.0.0 \
+    ANDROID_BUILD_TOOLS_VERSION=28.0.3 \
     ANDROID_APIS="android-27,android-28" \
     ANT_HOME="/usr/share/ant" \
     MAVEN_HOME="/usr/share/maven" \
